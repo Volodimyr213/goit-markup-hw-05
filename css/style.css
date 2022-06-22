@@ -56,8 +56,7 @@
          font-size: 26px;
          line-height: 1.2;
          letter-spacing: 0.03em;
-         padding-top: 24px;
-         padding-bottom: 24px;
+   
     }
     
     .logo-head{
@@ -258,14 +257,11 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        
     }
-    .hero-button:hover{
-        color: var(--title-text-color);
-        background-color: #F5F4FA;
-    }
+    
     .hero-button:focus{
-        color: var(--title-text-color);
-        background-color: #F5F4FA;}
-   
+        color:var(--prymory-white-color);}
+        
+
     
 
     .backdrop{
@@ -767,7 +763,7 @@
 
 
     .nav-button{
-        transition-property:color,background-color;
+        transition-property:color,background-color,box-shadow;
         transition-duration:250ms;
         transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -868,13 +864,13 @@
             }
 
             .bakground-link:hover .bakground-div-txt{
-                transform: translateY(0);
+                transform: translateY(0); 
+                } 
 
-            }
-
-
-
-
+            .bakground-link:hover,:focus .bakground-div-txt{
+                transform: translateY(0); 
+                } 
+                
             .bakground-div-txt{
                 position: absolute;
                 top: 0;
